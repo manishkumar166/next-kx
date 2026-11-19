@@ -1,15 +1,14 @@
-export const metadata={
-  title:{
-    template:"%s | My college website demo" ,
-    default: "My  college website demo"
-  },
-  description:"Official college website demo"
+import "./globals.css";
+
+export const metadata = {
+  title: "KX Goods — Thoughtful things for everyday",
+  description:
+    "Useful, beautiful things for the everyday. Discover thoughtfully chosen objects made to be kept.",
 };
 
-export default function RootLayout({children})
-{
+export default function RootLayout({ children }) {
   return (
-    <html>
+    <html lang="en">
       <body>{children}</body>
     </html>
   );
